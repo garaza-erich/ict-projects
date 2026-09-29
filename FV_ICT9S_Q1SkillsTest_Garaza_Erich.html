@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Skills Test</title>
+    <style>
+section{
+    	background-color:#9e8bc2;
+    	padding: 20px;
+    	border-radius: 12px;
+    	width: 1000px;
+    	margin: auto;
+    	box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+        position: relative;
+        overflow: visible;
+    }
+
+.robotthingy{
+    position: absolute;
+    top: -10px;
+    right: -23%;
+    transform: translateX(-50%);
+    width: 200px;
+    z-index: 1;   
+}         
+h1,p{
+    	text-align: center;
+        font-family: futura;
+        color: #ddcaff;
+    }
+h1{
+    font-size: 50px;
+}
+body, #submit, #gradelevel, #name, #email, #essay{
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+       color: #52307c;
+       font-size: 23px;
+    }
+
+input[type="text"], select, textarea, button {
+    	width: 100%;
+    	padding: 15px;
+    	border: 1px solid #ccc;
+    	border-radius: 5px;
+    	text-align: center;
+        box-sizing: border-box;
+    }
+
+html{
+    background-image: linear-gradient(#52307c, #663a82, #7c5295);
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <br>
+        <h1>OBMC Robotics Club</h1>
+        <p>Leading the way to the future of technology.</p>
+    </header>
+
+    <br>
+
+
+    <section>
+        <img src="https://purepng.com/public/uploads/large/purepng.com-robotrobotprogrammableautomatonelectronics-1701528369215qzktv.png" class="robotthingy" alt="Robot peeking">
+    <form>
+
+        <br>  
+        <label for="full name">Full Name:</label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Juan Dela Cruz">
+        <br><br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="text" id="email" name="email" placeholder="delacruzjuan@gmail.com">
+
+        <br><br>
+
+        <label for="grade level">Grade Level:</label>
+        <br>
+        <select name="grade level" id="gradelevel">
+            <option value="Grade 7">Grade 7</option>
+            <option value="Grade 8">Grade 8</option>
+            <option value="Grade 9">Grade 9</option>
+            <option value="Grade 10">Grade 10</option>
+            <option value="Grade 11">Grade 11</option>
+            <option value="Grade 12">Grade 12</option>
+        </select>
+
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <br>
+        <input type="radio" id="option1" name="option1">
+            <label for="options">Male</label>
+        <input type="radio" id="option2" name="option2">
+            <label for="options">Female</label>
+
+        <br><br>
+
+        <label for="Skills">Which skills are you most confident in performing?</label>
+        <br>
+        <input type="checkbox" id="skill1" name="skill1">
+            <label for="genre1">Coding</label>
+        <input type="checkbox" id="skill2" name="skill2">
+            <label for="genre2">Design</label>
+        <input type="checkbox" id="skill3" name="skill3">
+            <label for="genre2">Electronics</label>
+
+        <br><br>
+
+        <label for="Essay">Why do you want to join this club?</label>
+        <br>
+        <input type="text" id="essay" name="essay" placeholder="Type here...">
+            
+        <br><br>
+
+        <h3>Top Robotics Activities We Offer:</h3>
+        <ul>
+            <li>Simple Bristlebots</li>
+            <li>Clever Vibrobots</li>
+            <li>Creative Artbots</li>
+        </ul>
+
+        <h3>Helpful Links:</h3>
+        <ol>
+            <li><a href="https://www.uti.edu/blog/robotics-and-automation/robotics-basics">Robotics Basics: A Guide to Core Concepts and Applications</a></li>
+            <li><a href="https://share.google/XH60sBB243H2w5xS3">Introduction to Robotics</a></li>
+            <li><a href="https://www.playtolabs.com/blog/robotics-for-beginners">Robotics for Beginners - A Comprehensive Guide</a></li>
+        </ol>
+
+        <input type="submit" id="submit" value="Submit Application">
+
+        <br><br>
+            
+    </form>
+    </section>
+
+    <footer>
+        <br>
+        <p id="foot">&copy; 2026 OBMC Robotics Club | Created by Erich Garaza from 9-Sapphire</p>
+    </footer>
+</body>
+</html>
